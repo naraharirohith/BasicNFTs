@@ -1,0 +1,132 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "buyCollectible",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "collectibles",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "collectibleName",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "collectibleApprovals",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "minCollectiblePrice",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_collectibleName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_minCollectiblePrice",
+						"type": "uint256"
+					}
+				],
+				"name": "createCollectible",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NFTcollectible.sol": "nftCollectible"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NFTcollectible.sol": {
+			"keccak256": "0x36edc6045d6b61d59390b8e1b24a2d091e8b8da5bcec771f8b74c725044ab864",
+			"urls": [
+				"bzz-raw://08f31f4eae522fbfce8e724dc7120be73cb13867a279315baff90b72d5cffe67",
+				"dweb:/ipfs/QmWHKFbp9kK6gEDwU2RJiRdBrNYFiCdSVrniCJpgFWpq45"
+			]
+		}
+	},
+	"version": 1
+}

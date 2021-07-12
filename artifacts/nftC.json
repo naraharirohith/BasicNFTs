@@ -1,0 +1,58 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"görli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212209630a45e33a7959bbd3126032022a6093f4e9bd45f3e2b6b8e347cb8d1e50d5d64736f6c63430008010033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SWAP7 ADDRESS LOG4 0x5E CALLER 0xA7 SWAP6 SWAP12 0xBD BALANCE 0x26 SUB KECCAK256 0x22 0xA6 MULMOD EXTCODEHASH 0x4E SWAP12 0xD4 0x5F RETURNDATACOPY 0x2B PUSH12 0x8E347CB8D1E50D5D64736F6C PUSH4 0x43000801 STOP CALLER ",
+			"sourceMap": "24:63:0:-:0;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "6080604052600080fdfea26469706673582212209630a45e33a7959bbd3126032022a6093f4e9bd45f3e2b6b8e347cb8d1e50d5d64736f6c63430008010033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SWAP7 ADDRESS LOG4 0x5E CALLER 0xA7 SWAP6 SWAP12 0xBD BALANCE 0x26 SUB KECCAK256 0x22 0xA6 MULMOD EXTCODEHASH 0x4E SWAP12 0xD4 0x5F RETURNDATACOPY 0x2B PUSH12 0x8E347CB8D1E50D5D64736F6C PUSH4 0x43000801 STOP CALLER ",
+			"sourceMap": "24:63:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12600",
+				"executionCost": "66",
+				"totalCost": "12666"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}
